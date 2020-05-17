@@ -3,10 +3,12 @@
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 40%;
     margin: auto;
     margin-top: 10%;
+    
+
 }
 
 .item-height
@@ -16,8 +18,9 @@
 
 .input-container
 {
-    border: 2px solid royalblue;
+    /* border: 2px solid royalblue; */
     background-color: white;
+    padding: 5px;
 }
 
 #input-form
@@ -26,8 +29,12 @@
     width: 85%;
     font-size: 1.0rem;
     font-weight: bolder;
-    border: 2px solid lightcyan;
+    /* border: 2px solid lightcyan; */
     border-radius: 5px;
+    box-shadow: 0px;
+    border: 0px;
+    margin:0px;
+    padding:0px;
 }
 
 #input-form:focus + #plus-icon
@@ -69,11 +76,18 @@ li
     font-weight: bolder;
     font-style: oblique;
     font-family: sans-serif;
-    border: whitesmoke 2px solid;
+    /* border: whitesmoke 2px solid; */
     display: flex;
     align-items: center;
+    transition: 0.5s all ease-in-out;
+    padding-left: 25px;
 }
-
+li:hover
+{
+    border: 1px solid coral;
+    border-radius: 4px;
+    position: relative;
+}
 .container-footer
 {
     background-color: white;
