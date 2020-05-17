@@ -9,7 +9,7 @@ function addElemenetFunction()
 {
     var item = document.createElement('li');
     var text = document.getElementById('input-form');
-    var value = '<span>' +' ' + text.value +' ' +'</span>' + '<i class="fas fa-times cross-icon" onclick="removeItem(event)" id="' + id+'"></i>';
+    var value = '<i class="far fa-circle"></i><span>' +' ' + text.value +' ' +'</span>' + '<i class="fas fa-times cross-icon" onclick="removeItem(event)" id="' + id+'"></i>';
     var parentId = 'a' + id;
     item.innerHTML = value;
     item.classList.add("item-height");

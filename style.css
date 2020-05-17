@@ -7,8 +7,18 @@
     width: 40%;
     margin: auto;
     margin-top: 10%;
-    
+    padding: 2%;
+    border: 2px solid cyan;
+    flex-wrap: nowrap;
+    border-radius: 15px;
 
+}
+
+i{
+    text-align: center;
+    font-size: 1rem;
+    padding: 1%;
+    padding-right: 2%;
 }
 
 .item-height
@@ -21,12 +31,13 @@
     /* border: 2px solid royalblue; */
     background-color: white;
     padding: 5px;
+    display: flex;
 }
 
 #input-form
 {
     height: 100%;
-    width: 85%;
+    width: 90%;
     font-size: 1.0rem;
     font-weight: bolder;
     /* border: 2px solid lightcyan; */
@@ -34,12 +45,7 @@
     box-shadow: 0px;
     border: 0px;
     margin:0px;
-    padding:0px;
-}
-
-#input-form:focus + #plus-icon
-{
-   display: inline;
+    padding-left:15px;
 }
 
 span
@@ -51,13 +57,12 @@ span
 {
     display:inline;
     font-size: 1.5rem;
-    margin-left:16px;
     cursor: pointer;
+    width: 5%;
+    position:relative;
+    left: 1%;
 }
 
-#input-form::after
-{
-}
 
 ul
 {
@@ -74,13 +79,12 @@ li
     background-color: white;
     padding: 5px;
     font-weight: bolder;
-    font-style: oblique;
     font-family: sans-serif;
     /* border: whitesmoke 2px solid; */
     display: flex;
     align-items: center;
     transition: 0.5s all ease-in-out;
-    padding-left: 25px;
+    padding: 5px;
 }
 li:hover
 {
@@ -91,4 +95,21 @@ li:hover
 .container-footer
 {
     background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+#main-icon
+{
+    font-size: 1.5rem;
+    padding: 1%;
+    width: 5%;
+}
+
+#item-count
+{
+    width: 70%;
+    padding: 2%;
 }
